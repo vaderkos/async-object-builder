@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2020"],
+    "module": "commonjs",
+    "target": "es5",
+    "strict": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "noErrorTruncation": true
+  },
+  "ts-node": {
+    "files": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
